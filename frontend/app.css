@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;   /* Stacks the items vertically */
+    flex-wrap: wrap;          /* Allows items to wrap to the next line if needed */
+    justify-content: center;  /* Vertically centers items within the container */
+    align-items: center;      /* Horizontally centers items within the container */
+    height: 100vh;            /* Ensures the container fills the viewport height */
+}
